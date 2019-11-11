@@ -1,0 +1,32 @@
+---
+
+# one key and one value
+- students: gowtham
+
+# one key and many values
+- students:
+   - gowtham
+   - reddy
+   - chaitanya
+   - jafferali
+   
+# one key  and many records as values
+- students:
+  - name: gowtham
+    phoNO: 661616161
+    emailid: gowtham@gmail.com
+    address: kphb
+
+  - name: reddy
+    phoNO: 717171717
+    emailid: reddy@gmail.com
+    address: kphb
+
+  - name: chaitanya
+    phoNO: 81818181
+    emailid: chaitanya@gmail.com
+    address: kphb
+
+
+ 
+   
