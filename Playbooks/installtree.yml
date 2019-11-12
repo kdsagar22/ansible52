@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: des i am install git
+    apt:
+      name: tree
+      state:  present

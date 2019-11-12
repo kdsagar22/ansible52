@@ -15,17 +15,28 @@
   - name: gowtham
     phoNO: 661616161
     emailid: gowtham@gmail.com
-    address: kphb
+    address: 
+     streetNO:  2
+     doorNO: EWS353/2
+     pincode: 50072
 
   - name: reddy
     phoNO: 717171717
     emailid: reddy@gmail.com
-    address: kphb
+    address: 
+     streetNO:  2
+     doorNO: EWS353/2
+     pincode: 50072
+
 
   - name: chaitanya
     phoNO: 81818181
     emailid: chaitanya@gmail.com
-    address: kphb
+    address: 
+     streetNO:  2
+     doorNO: EWS353/2
+     pincode: 50072
+
 
 
  
