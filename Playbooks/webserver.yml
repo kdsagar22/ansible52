@@ -7,10 +7,20 @@
      name: apache2
      state: present
     when: ansible_os_family =="Debian"
+  - name: start webserver on ubuntu16
+    service:
+     name: apache2
+     state: started
+    when: ansible_os_family =="Debian"
 
 
   - name: install webserver on Redhat8
     yum:
-      name: httpd
-      state: present
+     name: httpd
+     state: present
+    when: ansible_os_family =="RedHat"
+  - name: start webserver on Redhat8
+    service:
+     name: httpd
+     state: started
     when: ansible_os_family =="RedHat"
