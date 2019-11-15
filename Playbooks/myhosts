@@ -19,3 +19,8 @@
 
 [ubuntuservers]
 172.31.90.85
+
+
+[webservers:vars]
+webserversOnubuntu=apache2
+webserversonRedhat=httpd
