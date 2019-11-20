@@ -15,7 +15,7 @@
     when: ansible_os_family =="Debian"
   - name: copy index.j2 file into anisble node side 
     template:
-      src:
+      src: index.j2
       dest: /var/www/html/index.html
 
 
