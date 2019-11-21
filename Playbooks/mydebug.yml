@@ -4,4 +4,8 @@
   tasks: 
   - name: execute linux command
     command: hostname -f 
+    register: myresult
+  - name: display the above task result
+    debug:
+      msg: "{{myresult}}"
 
