@@ -1,0 +1,17 @@
+---
+- hosts: 172.31.90.85
+  become: yes
+  tasks:
+  - name: install git
+    apt: 
+      name: git
+
+  - name: install wget
+    apt:
+      namee: wget
+  
+  - name: install tree
+    apt:
+       name: tree
+
+    
