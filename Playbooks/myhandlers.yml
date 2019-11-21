@@ -22,6 +22,6 @@
   - name: restartwebserver
     service:
      name: httpd
-     state: restart
+     state: restarted
     
 
