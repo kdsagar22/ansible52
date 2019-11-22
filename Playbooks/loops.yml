@@ -1,0 +1,14 @@
+---
+- hosts: 172.31.90.85
+  become: yes
+  tasks:
+  - name: loop
+    apt:
+      name: "{{ item }}"
+      state: present
+    loop:
+      - git
+      - wget
+      - tree
+
+  
