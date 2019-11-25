@@ -5,9 +5,8 @@
 
 
 
-[applicationservers]
-172.31.90.86
-172.31.18.201
+[appservers]
+172.31.82.231
 
 
 [dbservers]
