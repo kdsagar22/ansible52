@@ -1,0 +1,15 @@
+---
+- name: tomuser file into nodes
+  template:
+    src:  templates/tomuser.j2
+    dest:  /opt/tomcat/conf/tomcat-users.xml
+
+- name: manager context file into nodes  
+  template:
+    src: templates/managercontext.j2
+    dest: /opt/tomcat/webapps/manager/META-INF/context.xml
+
+- name: host manager context file into nodes  
+  template:
+    src: templates/hostmanagercontext.j2
+    dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
