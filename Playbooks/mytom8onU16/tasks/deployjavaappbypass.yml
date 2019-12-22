@@ -1,6 +1,6 @@
-
+---
 - name: Copy a war file into 
 
   copy:
-    src: /mine/ntp.conf
-    dest: /etc/ntp.conf
+    src: /home/maha/jenkins/ansible52/Playbooks/mahaLogin-1.0.war
+    dest: /opt/tomcat/webapps/mahaLogin.war
