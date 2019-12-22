@@ -1,0 +1,6 @@
+
+- name: Copy a war file into 
+
+  copy:
+    src: /mine/ntp.conf
+    dest: /etc/ntp.conf
