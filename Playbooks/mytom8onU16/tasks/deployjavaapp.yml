@@ -1,7 +1,7 @@
 ---
 - name: deploy java application
   get_url:
-    url: http://52.43.65.153:8081/artifactory/vtUAT/{{mybuildno}}/target/mahaLogin-1.0.war
+    url: http://3.0.145.153:8081/artifactory/myuat/8/target/mahaLogin-1.0.war
     dest: /opt/tomcat/webapps/mahaLogin.war
     username: admin
     password: password
